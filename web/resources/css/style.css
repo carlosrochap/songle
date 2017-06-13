@@ -1,0 +1,136 @@
+*{margin: 0px; padding: 0px; border: 0px;}
+html, body{
+	//height: 100%;
+	min-width: 980px;
+	font-size: 14px;  
+	font-family: sans-serif, Tahoma,Helvetica, Hiragino Sans GB;
+}
+.logo_index{
+	font-size: 5em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 200px;
+}
+.logo_subtitle{
+	text-align: center;
+	font-size: 22px;
+	font-weight: normal;
+	color: #585858;
+}
+.blueFont{
+	color: #4885ed
+}
+.redFont{
+	color: #db3236;
+}
+.yelloFont{
+	color: #f4c20d;
+}
+.greenFont{
+	color: #3cba54;
+}
+
+.searchForm{
+	width: 650px;
+    height: 35px;
+	margin: 20px auto;
+}
+.searchBar, .submitButton{
+	float: left;
+	border: 1px solid #c0c0c0;
+	outline: 0;
+}
+.searchBar{
+	width: 85%;
+	height: inherit;
+	padding: 0 10px;
+}
+.submitButton{
+	height: 36.82px;
+	width: 11%;
+	background-color: #eee;
+}
+
+/******** result page ********/
+#search_bar_result{
+	height: 60px;
+	background-color: #f1f1f1;
+}
+.logo_result{
+	font-size: 2em;
+	font-weight: bold;
+	width: 160px;
+	text-align: center;
+	padding-top: 10px;
+	float: left;
+}
+.resultSearchForm{
+	width: 650px;
+    height: 35px;
+	display: inline-block;
+	float: left;
+	margin-top: 8px;
+}
+#genre_navigation_wrapper{
+	height: 40px;
+	background-color: #f1f1f1;
+}
+#genre_navigation{
+	width: 800px;
+	height: inherit;
+	list-style-type: none;
+	position: relative;
+	left: 160px;
+}
+#genre_navigation li{
+	display: inline-block;
+	width: 80px;
+	line-height: inherit;
+	padding: 11px 0;
+	text-align: center;
+	font-size: 1em;
+}
+#genre_navigation li:hover{
+	cursor: pointer;
+}
+#genre_navigation li.active
+{
+	border-bottom: 3px solid #4885ed;
+}
+.content_wrapper{
+	width: 780px; min-height: 400px;
+	position: relative;
+	left: 160px;
+    //background-color: #eee;
+}
+.result_row{
+	font-size: 15px;
+	padding: 20px 20px;
+}
+.result_row h3 a{
+	text-decoration: none;
+}
+.result_row p{
+	margin: 4px 0;
+}
+.lyrics{
+	color: #707070;
+}
+.lyric_wrapper{
+	padding: 20px 20px;
+}
+#footer{
+	margin-top: 50px;
+	padding: 80px 0;
+	background: purple; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left, #ff4c4c, purple); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #ff4c4c, purple); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #ff4c4c, purple); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #ff4c4c, purple); /* Standard syntax */
+}
+.logo_footer{
+	font-size: 5em;
+	font-weight: bold;
+	text-align: center;
+}
+
